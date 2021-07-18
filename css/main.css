@@ -22,7 +22,7 @@ body{
 	font-size: 16px;
 	background: #1F2326;
 	font-weight: 300;
-	zoom: 50%;
+	margin-left: -120px;
 	
 }
 
@@ -510,10 +510,14 @@ li a, a{
 	margin: 0 auto;
 }
 
+.placeb {
+	width: 80%;
+	height: 300px;
+}
 
 @media screen and (max-width: 2900px) {
 	body{
-		zoom: 80%;
+		transform: scale(80%);
 	   }
 
 	   .container{
@@ -556,38 +560,47 @@ li a, a{
 
 @media screen and (max-width: 2499px) {
 	body{
-		zoom: 70%;
+		transform: scale(70%);
+		margin-left: -220px;
 	   }
 }
 
 @media screen and (max-width: 1999px) {
 	body{
-		zoom: 50%;
+		transform: scale(50%);
+		margin-left: -320px;
 	   }
 }
 
 @media screen and (max-width: 1441px) {
 	body{
-		zoom: 40%;
+		transform: scale(40%);
+		margin-left: -420px;
 	   }
 }
 
 @media screen and (max-width: 991px) {
+	body{
+		transform: scale(30%);
 	
+	   }
 	
 }
 
 @media screen and (max-width: 767px) {
-
+	body{
+		transform: scale(20%);
+		margin-left: -320px;
+	   }
 
 }
 
 @media screen and (max-width: 575px) {
+	body{
+		transform: scale(15%);
+		
 	
+	   }
 }
 
 
-.placeb {
-	width: 80%;
-	height: 300px;
-}
