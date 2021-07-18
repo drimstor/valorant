@@ -13,7 +13,7 @@ body{
 	font-size: 16px;
 	background: #1F2326;
 	font-weight: 300;
-	margin-left: -120px;	
+	margin-left: -140px;	
 }
 
 * {
@@ -76,7 +76,7 @@ ul, li {
 	width: 263px;
 	height: 263px;
 	border-radius: 50%;
-	top: 85%;
+	top: -50px;
 	left: 50%;
 	background: #505155;
 }
@@ -491,7 +491,7 @@ li a, a{
 	  }
 
 	  .ellipse__darkgrey {
-		left: 90%;
+		left: 80%;
 	}
 	.ellipse__grey {
 		left: 100%;
@@ -521,52 +521,118 @@ li a, a{
 		margin-left: -320px;
 	   }
 }
+@media screen and (max-width: 1679px) {
+	body{
+		margin-left: -400px;
+	   }
+}
 
 @media screen and (max-width: 1441px) {
 	body{
 		transform: scale(40%);
-		margin-left: -420px;
+		margin-left: -440px;
 	   }
+		.ellipse__darkgrey {
+			left: 115%;
+		}
+		.ellipse__grey {
+			left: 140%;
+		}
+		.ellipse__smallgrey {
+			left: 70%;
+			
+		}
 }
+
+@media screen and (max-width: 1025px) {
+
+		.ellipse__darkgrey {
+			left: 130%;
+		}
+		.ellipse__grey {
+			left: 172%;
+		}
+		.ellipse__smallgrey {
+			left: 90%;
+		}
+}
+
 
 @media screen and (max-width: 991px) {
 	body{
-		transform: scale(30%);
-	
+		transform: scale(30%);	
 	   }
+		.ellipse__darkgrey {
+			left: 145%;
+		}
+		.ellipse__grey {
+			left: 185%;
+		}
 	
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
 	body{
 		transform: scale(20%);
 		margin-left: -320px;
 	   }
-
+		.ellipse__darkgrey {
+			left: 195%;
+		}
+		.ellipse__grey {
+			left: 240%;
+		}
+		.ellipse__smallgrey {
+			left: 130%;
+		}
 }
 
 @media screen and (max-width: 575px) {
 	body{
 		transform: scale(15%);
-		margin-left: -300px;
-	
+		margin-left: -300px;	
 	   }
+		.ellipse__darkgrey {
+			left: 250%;
+		}
+		.ellipse__grey {
+			left: 330%;
+		}
+		.ellipse__smallgrey {
+			left: 170%;
+		}
 }
 
 
 @media screen and (max-width: 410px) {
 	body{
 		transform: scale(13%);
-		margin-left: -270px;
-	
+		margin-left: -270px;	
 	   }
+		.ellipse__darkgrey {
+			left: 285%;
+		}
+		.ellipse__grey {
+			left: 370%;
+		}
+		.ellipse__smallgrey {
+			left: 240%;
+		}
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 323px) {
 	body{
 		transform: scale(11%);
-		margin-left: -240px;
-	
+		margin-left: -240px;	
 	   }
+		.ellipse__darkgrey {
+			left: 335%;
+		}
+		.ellipse__grey {
+			left: 445%;
+		}
+		.ellipse__smallgrey {
+			left: 280%;
+		}
 }
 
